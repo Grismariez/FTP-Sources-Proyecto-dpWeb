@@ -1,0 +1,23 @@
+	/* 1° tipo - definición de clases con . -Se invocan con la propiedad Class="" */
+.Rotar {
+    -webkit-transition: width 2s, height 2s	-webkit-transform 2s; /* For Safari 3.1 to 6.0 */
+    transition: width 2s, height 2s, transform 2s;
+}
+
+.Rotar:hover {-webkit-transform: rotate(360deg);
+	-moz-transform: rotate(360deg);
+	-o-transform: rotate(360deg);
+	-ms-transform: rotate(360deg);
+	transform: rotate(360deg);}
+
+	/* 2° tipo - definición de clases con # -Se invocan con la propiedad Id="" */
+#Rotar2 {
+    -webkit-transition: width 2s, height 2s, -webkit-transform 2s; /* For Safari 3.1 to 6.0 */
+    transition: width 2s, height 2s, transform 2s;
+}
+
+#Rotar2:hover {-webkit-transform: rotate(360deg);
+	-moz-transform: rotate(360deg);
+	-o-transform: rotate(360deg);
+	-ms-transform: rotate(360deg);
+	transform: rotate(360deg);}

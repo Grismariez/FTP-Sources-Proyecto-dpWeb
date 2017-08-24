@@ -1,0 +1,54 @@
+/* ================================================================ 
+This copyright notice must be untouched at all times.
+
+The original version of this stylesheet and the associated (x)html
+is available at http://www.stunicholls.com/menus/mini-tabbed-pages.html
+Copyright (c) 2005-2007 Stu Nicholls. All rights reserved.
+This stylesheet and the associated (x)html may be modified in any 
+way to fit your requirements.
+=================================================================== */
+
+
+#tabs {width:400px; text-align:center; background: url(icon/top.gif); margin:0; position:relative; z-index:200; font:bold 11px verdana, arial, sans-serif;}
+#tabs ul {padding:0; margin:0; width:399px; list-style:none; position:relative;}
+#tabs ul li.outer {float:left; display:inline; margin:0 4px 3px 4px; width:75px; height:53px; border-bottom:1px solid #9c9c9c; line-height:45px; color:#664;  padding:0 0 0 50px; cursor:pointer;}
+
+#tabs ul li.one {background:#fff url(icon/world.jpg) no-repeat top left;}
+#tabs ul li.two {background:#fff url(icon/key.jpg) no-repeat top left;}
+#tabs ul li.three {background:#fff url(icon/mail.jpg) no-repeat top left;}
+#tabs ul li.four {background:#fff url(icon/search.jpg) no-repeat top left;}
+#tabs ul li.five {background:#fff url(icon/profile.jpg) no-repeat top left;}
+#tabs ul li.six {background:#fff url(icon/draw.jpg) no-repeat top left;}
+
+#tabs ul li div {display:none;}
+
+#tabs ul li.click {padding-bottom:132px; border-bottom:1px solid #fff; color:#000; margin-bottom:0;}
+
+#tabs ul li.click {color:#000; background-position:0 -55px; height:55px; cursor:default;}
+
+
+#tabs ul li.click div {display:block; padding:5px; position:absolute; left:4px; top:55px; width:381px; height:118px; border-bottom:3px solid #fff;}
+
+#tabs ul li.click div.tab_left
+{background:#fff url(icon/tab_left.gif);}
+
+#tabs ul li.click div.tab_center
+{background:#fff url(icon/tab_center.gif);}
+
+#tabs ul li.click div.tab_right
+{background:#fff url(icon/tab_right.gif);}
+
+.clear {clear:both; height:0; line-height:0; overflow:hidden;}
+
+#tabs span.base {display:block; height:20px;font-size:10px; color:#c60; background:url(icon/bottom.gif) bottom;}
+#tabs div h5 {font-size:11px; margin:0;}
+#tabs div p {font-weight:normal; text-align:left; color:#000; margin-top:3px; line-height:15px;}
+#tabs div a img {border:0;}
+#tabs div img.image {float:left; border:0; margin-right:5px; margin-top:-15px;}
+#tabs div a.unlock {background:url(icon/unlock.gif); display:block; width:30px; height:30px; margin:0 auto;}
+#tabs div a.unlock:hover {border:0;}
+#tabs div a:hover.unlock img {visibility:hidden;}
+#tabs p.bold {color:#069; padding-top:5px;}
+#tabs form {margin-top:-10px; padding:0;}
+#tabs form fieldset {padding:0;}
+#tabs p.buttons {text-align:center;}

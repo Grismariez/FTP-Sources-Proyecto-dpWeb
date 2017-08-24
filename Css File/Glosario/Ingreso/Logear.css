@@ -1,0 +1,34 @@
+
+/*aspectos generales: bordes y color de fondo de formLevelUp*/
+.formLevelUp {-webkit-box-shadow: 6px 6px 1px #888888; 
+-moz-box-shadow: 6px 6px 1px #888888;
+box-shadow: 6px 6px 1px #888888;
+
+-webkit-border-radius:25px; 
+-moz-border-radius:25px;
+border-radius:25px;
+
+border: 10px #00FFFF ridge; width: 184px; height:90px; text-align: center;
+               background-color: #E0F8F7; }
+
+/*botones normales: anchura y margen*/
+.formLevelUp [type=Button] 
+{ -webkit-border-radius:25px;
+-moz-border-radius:25px;
+border-radius:25px;
+
+width: 90px; padding: 0; height:25px; }
+
+.formLevelUp [type=Reset] 
+{ -webkit-border-radius:25px;
+-moz-border-radius:25px;
+border-radius:25px;
+
+width: 78px; padding: 0; height:25px; }
+
+.formLevelUp [type=Submit] 
+{ -webkit-border-radius:25px; 
+-moz-border-radius:25px;
+border-radius:25px;
+
+width: 150px; padding: 0; height:25px; }
